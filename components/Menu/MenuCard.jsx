@@ -7,7 +7,6 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   decrementOrder,
   getItemWithId,
-  getShowModal,
   incrementOrder
 } from "../../slices/cartSlice";
 import { DELIVEROO_COLOR } from "../../globals/global";
