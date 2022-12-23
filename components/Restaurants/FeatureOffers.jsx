@@ -30,7 +30,7 @@ const FeatureOffer = ({ id, secTitle, desc }) => {
   }, [id]);
   return (
     <>
-      <View className="flex flex-row items-center mx-4 my-2 justify-between">
+      <View className="flex-row items-center mx-4 my-2 justify-between">
         <View>
           <Text className="font-bold text-lg">{secTitle}</Text>
           <Text className="text-gray-500 text-xs">{desc}</Text>
